@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page with Inline CSS</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    "
+  >
+    <!-- Navbar -->
+    <header>
+      <nav
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #004080;
+          padding: 1rem 2rem;
+          color: white;
+        "
+      >
+        <div style="font-size: 1.5rem; font-weight: bold">MyWebsite</div>
+        <ul
+          style="
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            margin: 0;
+            padding: 0;
+          "
+        >
+          <li>
+            <a
+              href="home.html"
+              style="color: white; text-decoration: none; font-weight: 500"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="product.html"
+              style="color: white; text-decoration: none; font-weight: 500"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              style="color: white; text-decoration: none; font-weight: 500"
+              >Profile</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              style="color: white; text-decoration: none; font-weight: 500"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 90vh;
+        background: linear-gradient(to right, #0073e6, #00c6ff);
+        color: white;
+      "
+    >
+      <div>
+        <h1 style="font-size: 3rem; margin-bottom: 1rem">
+          Welcome to My Website
+        </h1>
+        <p style="font-size: 1.25rem; margin-bottom: 2rem">
+          Your one-stop solution for web services
+        </p>
+        <a
+          href="#"
+          style="
+            background-color: white;
+            color: #0073e6;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+          "
+          >Learn More</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      style="
+        background-color: #004080;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      "
+    >
+      <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

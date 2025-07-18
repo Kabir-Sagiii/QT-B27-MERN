@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    "
+  >
+    <!-- Navbar -->
+    <header>
+      <nav
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #004080;
+          padding: 1rem 2rem;
+          color: white;
+        "
+      >
+        <div style="font-size: 1.5rem; font-weight: bold">MyWebsite</div>
+        <ul
+          style="
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            margin: 0;
+            padding: 0;
+          "
+        >
+          <li>
+            <a href="home.html" style="color: white; text-decoration: none"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="product.html" style="color: white; text-decoration: none"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a href="profile.html" style="color: white; text-decoration: none"
+              >Profile</a
+            >
+          </li>
+          <li>
+            <a href="profile.html" style="color: white; text-decoration: none"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Profile Section -->
+    <section
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 1rem;
+        background-color: white;
+        max-width: 700px;
+        margin: 2rem auto;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <img
+        src="https://via.placeholder.com/150"
+        alt="User Profile Picture"
+        style="
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          border: 4px solid #004080;
+        "
+      />
+      <h1 style="margin-top: 1rem; font-size: 2rem">John Doe</h1>
+      <p style="color: #555">Web Developer & Designer</p>
+
+      <div style="margin-top: 2rem; width: 100%; max-width: 500px">
+        <h3 style="color: #004080; margin-bottom: 0.5rem">
+          Contact Information
+        </h3>
+        <p><strong>Email:</strong> john.doe@example.com</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Location:</strong> San Francisco, CA</p>
+      </div>
+
+      <div style="margin-top: 2rem; width: 100%; max-width: 500px">
+        <h3 style="color: #004080; margin-bottom: 0.5rem">About Me</h3>
+        <p style="line-height: 1.6">
+          Passionate front-end developer with 5+ years of experience in building
+          responsive and engaging websites. Skilled in HTML, CSS, JavaScript,
+          and modern frameworks like React. Loves to turn creative ideas into
+          functional, user-friendly digital experiences.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      style="
+        background-color: #004080;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      "
+    >
+      <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
