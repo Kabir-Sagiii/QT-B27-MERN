@@ -1,0 +1,21 @@
+h2 {
+  color: green;
+}
+
+#para {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+
+.black {
+  background-color: black;
+  margin: 20px;
+}
