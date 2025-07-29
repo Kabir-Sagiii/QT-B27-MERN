@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function f1() {
+        document.querySelector("h2").style.color = "red";
+
+        var image = document.createElement("img");
+        image.src =
+          "https://static.vecteezy.com/system/resources/previews/029/891/975/non_2x/business-american-man-in-light-cream-ai-generative-free-photo.jpg";
+        image.width = "100";
+        image.height = "100";
+        document.querySelector("body").appendChild(image);
+      }
+    </script>
+    <style>
+      h2 {
+        color: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Welcome to JS</h2>
+    <button onclick="f1()">Submit</button><br /><br />
+  </body>
+</html>
