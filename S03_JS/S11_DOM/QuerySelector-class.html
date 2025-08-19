@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function accessDomElementsUsingClass() {
+        var h2_DOM_Element = document.querySelector(".title");
+        h2_DOM_Element.style.color = "white";
+        h2_DOM_Element.style.backgroundColor = "black";
+        h2_DOM_Element.style.padding = "20px";
+
+        var li_DOMElement = document.querySelector(".html");
+        li_DOMElement.style.color = "Red";
+      }
+
+      function addBlack() {
+        var h2_DOM_Element = document.querySelector(".title");
+        h2_DOM_Element.style.color = "white";
+        h2_DOM_Element.style.backgroundColor = "black";
+        h2_DOM_Element.style.padding = "20px";
+        h2_DOM_Element.style.width = "100%";
+      }
+
+      function addRed() {
+        var h2_DOM_Element = document.querySelector(".title");
+        h2_DOM_Element.style.color = "black";
+        h2_DOM_Element.style.backgroundColor = "red";
+        h2_DOM_Element.style.padding = "20px";
+        h2_DOM_Element.style.width = "300px";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h2 class="title" onmouseenter="addRed()" onmouseleave="addBlack()">
+      Document Object Model
+    </h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+      dolorum! Possimus, eaque! Delectus perferendis enim inventore error, quas
+      atque. Esse tempora beatae eos ipsam quam quaerat quod perspiciatis!
+      Praesentium nobis possimus provident voluptates dolorum eos, quae tempore
+      minima similique, soluta perspiciatis ea. Explicabo quis ipsam voluptates
+      inventore qui optio natus.
+    </p>
+    <ol>
+      <li class="html">HTML</li>
+    </ol>
+    <button onclick="accessDomElementsUsingClass()">Submit</button>
+  </body>
+</html>

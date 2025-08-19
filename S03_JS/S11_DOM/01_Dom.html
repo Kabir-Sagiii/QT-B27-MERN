@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function accessh2() {
+        var h2_DomElement = document.querySelector("h2");
+
+        var p_dom = document.querySelector("p");
+
+        var li = document.querySelector("li");
+
+        li.innerText = "Java Script";
+
+        h2_DomElement.innerText = "Just Now Document Updated";
+
+        p_dom.innerText =
+          "This is my paragraph element which is modified using JS";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h2>Document Object Model</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+      dolorum! Possimus, eaque! Delectus perferendis enim inventore error, quas
+      atque. Esse tempora beatae eos ipsam quam quaerat quod perspiciatis!
+      Praesentium nobis possimus provident voluptates dolorum eos, quae tempore
+      minima similique, soluta perspiciatis ea. Explicabo quis ipsam voluptates
+      inventore qui optio natus.
+    </p>
+    <ol>
+      <li>HTML</li>
+    </ol>
+    <button onclick="accessh2()">Submit</button>
+  </body>
+</html>

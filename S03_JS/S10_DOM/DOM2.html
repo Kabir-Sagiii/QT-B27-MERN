@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Object Model</title>
+    <script>
+      function changeContent() {
+        var h1DomElement = document.querySelector("h1");
+        var pDomElement = document.querySelector("p");
+
+        var count = 0;
+        for (var key in pDomElement) {
+          console.log(key);
+          count = count + 1;
+        }
+
+        console.log(count);
+      }
+    </script>
+  </head>
+
+  <body>
+    <div>
+      <h1>Document Object Model</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde optio
+        veritatis hic eum sunt! Ratione nostrum velit ea ad voluptate similique
+        facere omnis totam blanditiis soluta praesentium magnam nesciunt cumque
+        suscipit fuga animi, quibusdam, numquam dolores tempora temporibus.
+        Mollitia, rem.
+      </p>
+      <button onclick="changeContent()">Explore More</button>
+    </div>
+  </body>
+</html>
