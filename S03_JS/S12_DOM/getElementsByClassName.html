@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function getDomElements() {
+        var domelements = document.getElementsByClassName("mycolor");
+
+        console.log(domelements);
+
+        var secondH2DomElement = domelements[1];
+        var thirdH2DomElement = domelements[2];
+
+        secondH2DomElement.style.color = "white";
+        secondH2DomElement.style.backgroundColor = "black";
+        secondH2DomElement.style.padding = "20px";
+
+        thirdH2DomElement.style.color = "darkgreen";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h2 class="mycolor">This is heading 1</h2>
+
+    <h2 class="mycolor">This is heading 2</h2>
+
+    <h2 class="mycolor">This is heading 3</h2>
+
+    <button onclick="getDomElements()">Submit</button>
+  </body>
+</html>

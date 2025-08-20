@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function removeImage() {
+        var image = document.querySelector("img");
+        var h1 = document.querySelector("h1");
+
+        image.remove();
+        h1.remove();
+      }
+
+      function createImage() {
+        var imageDomElement = document.createElement("img");
+
+        var h1DomElement = document.createElement("h1");
+        h1DomElement.innerText = "Heading Element";
+
+        imageDomElement.width = "300";
+
+        imageDomElement.height = "300";
+
+        imageDomElement.src =
+          "https://static.vecteezy.com/system/resources/previews/025/474/309/non_2x/portrait-of-a-professional-woman-in-a-suit-business-woman-standing-in-an-office-ai-generated-photo.jpg";
+
+        var bodyDomElement = document.querySelector("body");
+
+        bodyDomElement.appendChild(h1DomElement);
+
+        bodyDomElement.appendChild(imageDomElement);
+      }
+    </script>
+  </head>
+
+  <body>
+    <button onclick="createImage()">Create</button>
+    <button onclick="removeImage()">Remove</button><br /><br />
+  </body>
+</html>
