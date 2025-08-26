@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        width: 800px;
+        height: 400px;
+        color: white;
+        display: grid;
+        grid-template-rows: 200px 200px;
+      }
+      .row1 {
+        background-color: lightgray;
+        display: grid;
+        grid-template-columns: 400px 400px;
+      }
+      .row2 {
+        background-color: lightsalmon;
+        color: black;
+        display: grid;
+        grid-template-columns: 200px 400px 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row1">
+        <div style="background-color: blue">Col 1</div>
+        <div style="background-color: black">Col 2</div>
+      </div>
+
+      <div class="row2">
+        <div style="background-color: lightgreen">Col 1</div>
+        <div style="background-color: lightpink">Col 2</div>
+        <div style="background-color: lightcoral">Col 3</div>
+      </div>
+    </div>
+  </body>
+</html>
